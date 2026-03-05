@@ -1,0 +1,87 @@
+MinorLenkjoystick.name=Minor Lenkjoystick
+
+MinorLenkjoystick.upload.tool=arduino:avrdude
+MinorLenkjoystick.upload.protocol=avr109
+MinorLenkjoystick.upload.maximum_size=28672
+MinorLenkjoystick.upload.maximum_data_size=2560
+MinorLenkjoystick.upload.speed=57600
+MinorLenkjoystick.upload.disable_flushing=true
+MinorLenkjoystick.upload.use_1200bps_touch=true
+MinorLenkjoystick.upload.wait_for_upload_port=true
+MinorLenkjoystick.bootloader.tool=arduino:avrdude
+MinorLenkjoystick.bootloader.low_fuses=0xff
+MinorLenkjoystick.bootloader.high_fuses=0xd8
+MinorLenkjoystick.bootloader.extended_fuses=0xcb
+MinorLenkjoystick.bootloader.file=caterina/Caterina-Leonardo.hex
+MinorLenkjoystick.bootloader.unlock_bits=0x3F
+MinorLenkjoystick.bootloader.lock_bits=0x2F
+MinorLenkjoystick.build.mcu=atmega32u4
+MinorLenkjoystick.build.f_cpu=16000000L
+MinorLenkjoystick.build.vid=0x2355
+MinorLenkjoystick.build.pid=0x8071
+MinorLenkjoystick.build.usb_product="Minor Lenkjoystick"
+MinorLenkjoystick.build.usb_manufacturer="Hendrik Kleinwächter"
+MinorLenkjoystick.build.board=AVR_LEONARDO
+MinorLenkjoystick.build.core=arduino:arduino
+MinorLenkjoystick.build.variant=arduino:leonardo
+MinorLenkjoystick.build.extra_flags={build.usb_flags}
+
+
+
+MinorJoystick.name=Minor Joystick
+
+MinorJoystick.upload.tool=arduino:avrdude
+MinorJoystick.upload.protocol=avr109
+MinorJoystick.upload.maximum_size=28672
+MinorJoystick.upload.maximum_data_size=2560
+MinorJoystick.upload.speed=57600
+MinorJoystick.upload.disable_flushing=true
+MinorJoystick.upload.use_1200bps_touch=true
+MinorJoystick.upload.wait_for_upload_port=true
+MinorJoystick.bootloader.tool=arduino:avrdude
+MinorJoystick.bootloader.low_fuses=0xff
+MinorJoystick.bootloader.high_fuses=0xd8
+MinorJoystick.bootloader.extended_fuses=0xcb
+MinorJoystick.bootloader.file=caterina/Caterina-Leonardo.hex
+MinorJoystick.bootloader.unlock_bits=0x3F
+MinorJoystick.bootloader.lock_bits=0x2F
+MinorJoystick.build.mcu=atmega32u4
+MinorJoystick.build.f_cpu=16000000L
+MinorJoystick.build.vid=0x2355
+MinorJoystick.build.pid=0x8072
+MinorJoystick.build.usb_product="Minor Joystick"
+MinorJoystick.build.usb_manufacturer="Hendrik Kleinwächter"
+MinorJoystick.build.board=AVR_LEONARDO
+MinorJoystick.build.core=arduino:arduino
+MinorJoystick.build.variant=arduino:leonardo
+MinorJoystick.build.extra_flags={build.usb_flags}
+
+
+
+MinorSchubhebel.name=Minor Schubhebel
+
+MinorSchubhebel.upload.tool=arduino:avrdude
+MinorSchubhebel.upload.protocol=avr109
+MinorSchubhebel.upload.maximum_size=28672
+MinorSchubhebel.upload.maximum_data_size=2560
+MinorSchubhebel.upload.speed=57600
+MinorSchubhebel.upload.disable_flushing=true
+MinorSchubhebel.upload.use_1200bps_touch=true
+MinorSchubhebel.upload.wait_for_upload_port=true
+MinorSchubhebel.bootloader.tool=arduino:avrdude
+MinorSchubhebel.bootloader.low_fuses=0xff
+MinorSchubhebel.bootloader.high_fuses=0xd8
+MinorSchubhebel.bootloader.extended_fuses=0xcb
+MinorSchubhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+MinorSchubhebel.bootloader.unlock_bits=0x3F
+MinorSchubhebel.bootloader.lock_bits=0x2F
+MinorSchubhebel.build.mcu=atmega32u4
+MinorSchubhebel.build.f_cpu=16000000L
+MinorSchubhebel.build.vid=0x2355
+MinorSchubhebel.build.pid=0x8073
+MinorSchubhebel.build.usb_product="Minor Schubhebel"
+MinorSchubhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+MinorSchubhebel.build.board=AVR_LEONARDO
+MinorSchubhebel.build.core=arduino:arduino
+MinorSchubhebel.build.variant=arduino:leonardo
+MinorSchubhebel.build.extra_flags={build.usb_flags}
