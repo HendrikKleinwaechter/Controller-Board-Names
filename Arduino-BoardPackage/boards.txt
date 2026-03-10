@@ -85,3 +85,183 @@ MinorSchubhebel.build.board=AVR_LEONARDO
 MinorSchubhebel.build.core=arduino:arduino
 MinorSchubhebel.build.variant=arduino:leonardo
 MinorSchubhebel.build.extra_flags={build.usb_flags}
+
+
+
+VectorLLenkjoystick.name=Vector L Lenkjoystick
+
+VectorLLenkjoystick.upload.tool=arduino:avrdude
+VectorLLenkjoystick.upload.protocol=avr109
+VectorLLenkjoystick.upload.maximum_size=28672
+VectorLLenkjoystick.upload.maximum_data_size=2560
+VectorLLenkjoystick.upload.speed=57600
+VectorLLenkjoystick.upload.disable_flushing=true
+VectorLLenkjoystick.upload.use_1200bps_touch=true
+VectorLLenkjoystick.upload.wait_for_upload_port=true
+VectorLLenkjoystick.bootloader.tool=arduino:avrdude
+VectorLLenkjoystick.bootloader.low_fuses=0xff
+VectorLLenkjoystick.bootloader.high_fuses=0xd8
+VectorLLenkjoystick.bootloader.extended_fuses=0xcb
+VectorLLenkjoystick.bootloader.file=caterina/Caterina-Leonardo.hex
+VectorLLenkjoystick.bootloader.unlock_bits=0x3F
+VectorLLenkjoystick.bootloader.lock_bits=0x2F
+VectorLLenkjoystick.build.mcu=atmega32u4
+VectorLLenkjoystick.build.f_cpu=16000000L
+VectorLLenkjoystick.build.vid=0x2355
+VectorLLenkjoystick.build.pid=0x8074
+VectorLLenkjoystick.build.usb_product="Vector L Lenkjoystick"
+VectorLLenkjoystick.build.usb_manufacturer="Hendrik Kleinwächter"
+VectorLLenkjoystick.build.board=AVR_LEONARDO
+VectorLLenkjoystick.build.core=arduino:arduino
+VectorLLenkjoystick.build.variant=arduino:leonardo
+VectorLLenkjoystick.build.extra_flags={build.usb_flags}
+
+
+
+VectorLSchubhebel.name=Vector L Schubhebel
+
+VectorLSchubhebel.upload.tool=arduino:avrdude
+VectorLSchubhebel.upload.protocol=avr109
+VectorLSchubhebel.upload.maximum_size=28672
+VectorLSchubhebel.upload.maximum_data_size=2560
+VectorLSchubhebel.upload.speed=57600
+VectorLSchubhebel.upload.disable_flushing=true
+VectorLSchubhebel.upload.use_1200bps_touch=true
+VectorLSchubhebel.upload.wait_for_upload_port=true
+VectorLSchubhebel.bootloader.tool=arduino:avrdude
+VectorLSchubhebel.bootloader.low_fuses=0xff
+VectorLSchubhebel.bootloader.high_fuses=0xd8
+VectorLSchubhebel.bootloader.extended_fuses=0xcb
+VectorLSchubhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+VectorLSchubhebel.bootloader.unlock_bits=0x3F
+VectorLSchubhebel.bootloader.lock_bits=0x2F
+VectorLSchubhebel.build.mcu=atmega32u4
+VectorLSchubhebel.build.f_cpu=16000000L
+VectorLSchubhebel.build.vid=0x2355
+VectorLSchubhebel.build.pid=0x8075
+VectorLSchubhebel.build.usb_product="Vector L Schubhebel"
+VectorLSchubhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+VectorLSchubhebel.build.board=AVR_LEONARDO
+VectorLSchubhebel.build.core=arduino:arduino
+VectorLSchubhebel.build.variant=arduino:leonardo
+VectorLSchubhebel.build.extra_flags={build.usb_flags}
+
+
+
+VectorLJoystickFahrhebel.name=Vector L Joystick Fahrhebel
+
+VectorLJoystickFahrhebel.upload.tool=arduino:avrdude
+VectorLJoystickFahrhebel.upload.protocol=avr109
+VectorLJoystickFahrhebel.upload.maximum_size=28672
+VectorLJoystickFahrhebel.upload.maximum_data_size=2560
+VectorLJoystickFahrhebel.upload.speed=57600
+VectorLJoystickFahrhebel.upload.disable_flushing=true
+VectorLJoystickFahrhebel.upload.use_1200bps_touch=true
+VectorLJoystickFahrhebel.upload.wait_for_upload_port=true
+VectorLJoystickFahrhebel.bootloader.tool=arduino:avrdude
+VectorLJoystickFahrhebel.bootloader.low_fuses=0xff
+VectorLJoystickFahrhebel.bootloader.high_fuses=0xd8
+VectorLJoystickFahrhebel.bootloader.extended_fuses=0xcb
+VectorLJoystickFahrhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+VectorLJoystickFahrhebel.bootloader.unlock_bits=0x3F
+VectorLJoystickFahrhebel.bootloader.lock_bits=0x2F
+VectorLJoystickFahrhebel.build.mcu=atmega32u4
+VectorLJoystickFahrhebel.build.f_cpu=16000000L
+VectorLJoystickFahrhebel.build.vid=0x2355
+VectorLJoystickFahrhebel.build.pid=0x8076
+VectorLJoystickFahrhebel.build.usb_product="Vector L Joystick Fahrhebel"
+VectorLJoystickFahrhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+VectorLJoystickFahrhebel.build.board=AVR_LEONARDO
+VectorLJoystickFahrhebel.build.core=arduino:arduino
+VectorLJoystickFahrhebel.build.variant=arduino:leonardo
+VectorLJoystickFahrhebel.build.extra_flags={build.usb_flags}
+
+
+
+VectorRLenkjoystick.name=Vector R Lenkjoystick
+
+VectorRLenkjoystick.upload.tool=arduino:avrdude
+VectorRLenkjoystick.upload.protocol=avr109
+VectorRLenkjoystick.upload.maximum_size=28672
+VectorRLenkjoystick.upload.maximum_data_size=2560
+VectorRLenkjoystick.upload.speed=57600
+VectorRLenkjoystick.upload.disable_flushing=true
+VectorRLenkjoystick.upload.use_1200bps_touch=true
+VectorRLenkjoystick.upload.wait_for_upload_port=true
+VectorRLenkjoystick.bootloader.tool=arduino:avrdude
+VectorRLenkjoystick.bootloader.low_fuses=0xff
+VectorRLenkjoystick.bootloader.high_fuses=0xd8
+VectorRLenkjoystick.bootloader.extended_fuses=0xcb
+VectorRLenkjoystick.bootloader.file=caterina/Caterina-Leonardo.hex
+VectorRLenkjoystick.bootloader.unlock_bits=0x3F
+VectorRLenkjoystick.bootloader.lock_bits=0x2F
+VectorRLenkjoystick.build.mcu=atmega32u4
+VectorRLenkjoystick.build.f_cpu=16000000L
+VectorRLenkjoystick.build.vid=0x2355
+VectorRLenkjoystick.build.pid=0x8077
+VectorRLenkjoystick.build.usb_product="Vector R Lenkjoystick"
+VectorRLenkjoystick.build.usb_manufacturer="Hendrik Kleinwächter"
+VectorRLenkjoystick.build.board=AVR_LEONARDO
+VectorRLenkjoystick.build.core=arduino:arduino
+VectorRLenkjoystick.build.variant=arduino:leonardo
+VectorRLenkjoystick.build.extra_flags={build.usb_flags}
+
+
+
+VectorRSchubhebel.name=Vector R Schubhebel
+
+VectorRSchubhebel.upload.tool=arduino:avrdude
+VectorRSchubhebel.upload.protocol=avr109
+VectorRSchubhebel.upload.maximum_size=28672
+VectorRSchubhebel.upload.maximum_data_size=2560
+VectorRSchubhebel.upload.speed=57600
+VectorRSchubhebel.upload.disable_flushing=true
+VectorRSchubhebel.upload.use_1200bps_touch=true
+VectorRSchubhebel.upload.wait_for_upload_port=true
+VectorRSchubhebel.bootloader.tool=arduino:avrdude
+VectorRSchubhebel.bootloader.low_fuses=0xff
+VectorRSchubhebel.bootloader.high_fuses=0xd8
+VectorRSchubhebel.bootloader.extended_fuses=0xcb
+VectorRSchubhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+VectorRSchubhebel.bootloader.unlock_bits=0x3F
+VectorRSchubhebel.bootloader.lock_bits=0x2F
+VectorRSchubhebel.build.mcu=atmega32u4
+VectorRSchubhebel.build.f_cpu=16000000L
+VectorRSchubhebel.build.vid=0x2355
+VectorRSchubhebel.build.pid=0x8078
+VectorRSchubhebel.build.usb_product="Vector R Schubhebel"
+VectorRSchubhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+VectorRSchubhebel.build.board=AVR_LEONARDO
+VectorRSchubhebel.build.core=arduino:arduino
+VectorRSchubhebel.build.variant=arduino:leonardo
+VectorRSchubhebel.build.extra_flags={build.usb_flags}
+
+
+
+VectorRJoystickFahrhebel.name=Vector R Joystick Fahrhebel
+
+VectorRJoystickFahrhebel.upload.tool=arduino:avrdude
+VectorRJoystickFahrhebel.upload.protocol=avr109
+VectorRJoystickFahrhebel.upload.maximum_size=28672
+VectorRJoystickFahrhebel.upload.maximum_data_size=2560
+VectorRJoystickFahrhebel.upload.speed=57600
+VectorRJoystickFahrhebel.upload.disable_flushing=true
+VectorRJoystickFahrhebel.upload.use_1200bps_touch=true
+VectorRJoystickFahrhebel.upload.wait_for_upload_port=true
+VectorRJoystickFahrhebel.bootloader.tool=arduino:avrdude
+VectorRJoystickFahrhebel.bootloader.low_fuses=0xff
+VectorRJoystickFahrhebel.bootloader.high_fuses=0xd8
+VectorRJoystickFahrhebel.bootloader.extended_fuses=0xcb
+VectorRJoystickFahrhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+VectorRJoystickFahrhebel.bootloader.unlock_bits=0x3F
+VectorRJoystickFahrhebel.bootloader.lock_bits=0x2F
+VectorRJoystickFahrhebel.build.mcu=atmega32u4
+VectorRJoystickFahrhebel.build.f_cpu=16000000L
+VectorRJoystickFahrhebel.build.vid=0x2355
+VectorRJoystickFahrhebel.build.pid=0x8079
+VectorRJoystickFahrhebel.build.usb_product="Vector R Joystick Fahrhebel"
+VectorRJoystickFahrhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+VectorRJoystickFahrhebel.build.board=AVR_LEONARDO
+VectorRJoystickFahrhebel.build.core=arduino:arduino
+VectorRJoystickFahrhebel.build.variant=arduino:leonardo
+VectorRJoystickFahrhebel.build.extra_flags={build.usb_flags}
