@@ -265,3 +265,153 @@ VectorRJoystickFahrhebel.build.board=AVR_LEONARDO
 VectorRJoystickFahrhebel.build.core=arduino:arduino
 VectorRJoystickFahrhebel.build.variant=arduino:leonardo
 VectorRJoystickFahrhebel.build.extra_flags={build.usb_flags}
+
+
+
+AxisFingertipjoystick.name=Axis Fingertipjoystick
+
+AxisFingertipjoystick.upload.tool=arduino:avrdude
+AxisFingertipjoystick.upload.protocol=avr109
+AxisFingertipjoystick.upload.maximum_size=28672
+AxisFingertipjoystick.upload.maximum_data_size=2560
+AxisFingertipjoystick.upload.speed=57600
+AxisFingertipjoystick.upload.disable_flushing=true
+AxisFingertipjoystick.upload.use_1200bps_touch=true
+AxisFingertipjoystick.upload.wait_for_upload_port=true
+AxisFingertipjoystick.bootloader.tool=arduino:avrdude
+AxisFingertipjoystick.bootloader.low_fuses=0xff
+AxisFingertipjoystick.bootloader.high_fuses=0xd8
+AxisFingertipjoystick.bootloader.extended_fuses=0xcb
+AxisFingertipjoystick.bootloader.file=caterina/Caterina-Leonardo.hex
+AxisFingertipjoystick.bootloader.unlock_bits=0x3F
+AxisFingertipjoystick.bootloader.lock_bits=0x2F
+AxisFingertipjoystick.build.mcu=atmega32u4
+AxisFingertipjoystick.build.f_cpu=16000000L
+AxisFingertipjoystick.build.vid=0x2355
+AxisFingertipjoystick.build.pid=0x807A
+AxisFingertipjoystick.build.usb_product="Axis Fingertipjoystick"
+AxisFingertipjoystick.build.usb_manufacturer="Hendrik Kleinwächter"
+AxisFingertipjoystick.build.board=AVR_LEONARDO
+AxisFingertipjoystick.build.core=arduino:arduino
+AxisFingertipjoystick.build.variant=arduino:leonardo
+AxisFingertipjoystick.build.extra_flags={build.usb_flags}
+
+
+
+DirectionControlKit.name=Direction Control Kit
+
+DirectionControlKit.upload.tool=arduino:avrdude
+DirectionControlKit.upload.protocol=avr109
+DirectionControlKit.upload.maximum_size=28672
+DirectionControlKit.upload.maximum_data_size=2560
+DirectionControlKit.upload.speed=57600
+DirectionControlKit.upload.disable_flushing=true
+DirectionControlKit.upload.use_1200bps_touch=true
+DirectionControlKit.upload.wait_for_upload_port=true
+DirectionControlKit.bootloader.tool=arduino:avrdude
+DirectionControlKit.bootloader.low_fuses=0xff
+DirectionControlKit.bootloader.high_fuses=0xd8
+DirectionControlKit.bootloader.extended_fuses=0xcb
+DirectionControlKit.bootloader.file=caterina/Caterina-Leonardo.hex
+DirectionControlKit.bootloader.unlock_bits=0x3F
+DirectionControlKit.bootloader.lock_bits=0x2F
+DirectionControlKit.build.mcu=atmega32u4
+DirectionControlKit.build.f_cpu=16000000L
+DirectionControlKit.build.vid=0x2355
+DirectionControlKit.build.pid=0x807B
+DirectionControlKit.build.usb_product="Direction Control Kit"
+DirectionControlKit.build.usb_manufacturer="Hendrik Kleinwächter"
+DirectionControlKit.build.board=AVR_LEONARDO
+DirectionControlKit.build.core=arduino:arduino
+DirectionControlKit.build.variant=arduino:leonardo
+DirectionControlKit.build.extra_flags={build.usb_flags}
+
+
+
+DirectusLenkjoystick.name=Directus Lenkjoystick
+
+DirectusLenkjoystick.upload.tool=arduino:avrdude
+DirectusLenkjoystick.upload.protocol=avr109
+DirectusLenkjoystick.upload.maximum_size=28672
+DirectusLenkjoystick.upload.maximum_data_size=2560
+DirectusLenkjoystick.upload.speed=57600
+DirectusLenkjoystick.upload.disable_flushing=true
+DirectusLenkjoystick.upload.use_1200bps_touch=true
+DirectusLenkjoystick.upload.wait_for_upload_port=true
+DirectusLenkjoystick.bootloader.tool=arduino:avrdude
+DirectusLenkjoystick.bootloader.low_fuses=0xff
+DirectusLenkjoystick.bootloader.high_fuses=0xd8
+DirectusLenkjoystick.bootloader.extended_fuses=0xcb
+DirectusLenkjoystick.bootloader.file=caterina/Caterina-Leonardo.hex
+DirectusLenkjoystick.bootloader.unlock_bits=0x3F
+DirectusLenkjoystick.bootloader.lock_bits=0x2F
+DirectusLenkjoystick.build.mcu=atmega32u4
+DirectusLenkjoystick.build.f_cpu=16000000L
+DirectusLenkjoystick.build.vid=0x2355
+DirectusLenkjoystick.build.pid=0x807C
+DirectusLenkjoystick.build.usb_product="Directus Lenkjoystick"
+DirectusLenkjoystick.build.usb_manufacturer="Hendrik Kleinwächter"
+DirectusLenkjoystick.build.board=AVR_LEONARDO
+DirectusLenkjoystick.build.core=arduino:arduino
+DirectusLenkjoystick.build.variant=arduino:leonardo
+DirectusLenkjoystick.build.extra_flags={build.usb_flags}
+
+
+
+DirectusJoystickFahrhebel.name=Directus Joystick Fahrhebel
+
+DirectusJoystickFahrhebel.upload.tool=arduino:avrdude
+DirectusJoystickFahrhebel.upload.protocol=avr109
+DirectusJoystickFahrhebel.upload.maximum_size=28672
+DirectusJoystickFahrhebel.upload.maximum_data_size=2560
+DirectusJoystickFahrhebel.upload.speed=57600
+DirectusJoystickFahrhebel.upload.disable_flushing=true
+DirectusJoystickFahrhebel.upload.use_1200bps_touch=true
+DirectusJoystickFahrhebel.upload.wait_for_upload_port=true
+DirectusJoystickFahrhebel.bootloader.tool=arduino:avrdude
+DirectusJoystickFahrhebel.bootloader.low_fuses=0xff
+DirectusJoystickFahrhebel.bootloader.high_fuses=0xd8
+DirectusJoystickFahrhebel.bootloader.extended_fuses=0xcb
+DirectusJoystickFahrhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+DirectusJoystickFahrhebel.bootloader.unlock_bits=0x3F
+DirectusJoystickFahrhebel.bootloader.lock_bits=0x2F
+DirectusJoystickFahrhebel.build.mcu=atmega32u4
+DirectusJoystickFahrhebel.build.f_cpu=16000000L
+DirectusJoystickFahrhebel.build.vid=0x2355
+DirectusJoystickFahrhebel.build.pid=0x807D
+DirectusJoystickFahrhebel.build.usb_product="Directus Joystick Fahrhebel"
+DirectusJoystickFahrhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+DirectusJoystickFahrhebel.build.board=AVR_LEONARDO
+DirectusJoystickFahrhebel.build.core=arduino:arduino
+DirectusJoystickFahrhebel.build.variant=arduino:leonardo
+DirectusJoystickFahrhebel.build.extra_flags={build.usb_flags}
+
+
+
+DirectusSchubhebel.name=Directus Schubhebel
+
+DirectusSchubhebel.upload.tool=arduino:avrdude
+DirectusSchubhebel.upload.protocol=avr109
+DirectusSchubhebel.upload.maximum_size=28672
+DirectusSchubhebel.upload.maximum_data_size=2560
+DirectusSchubhebel.upload.speed=57600
+DirectusSchubhebel.upload.disable_flushing=true
+DirectusSchubhebel.upload.use_1200bps_touch=true
+DirectusSchubhebel.upload.wait_for_upload_port=true
+DirectusSchubhebel.bootloader.tool=arduino:avrdude
+DirectusSchubhebel.bootloader.low_fuses=0xff
+DirectusSchubhebel.bootloader.high_fuses=0xd8
+DirectusSchubhebel.bootloader.extended_fuses=0xcb
+DirectusSchubhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+DirectusSchubhebel.bootloader.unlock_bits=0x3F
+DirectusSchubhebel.bootloader.lock_bits=0x2F
+DirectusSchubhebel.build.mcu=atmega32u4
+DirectusSchubhebel.build.f_cpu=16000000L
+DirectusSchubhebel.build.vid=0x2355
+DirectusSchubhebel.build.pid=0x807E
+DirectusSchubhebel.build.usb_product="Directus Schubhebel"
+DirectusSchubhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+DirectusSchubhebel.build.board=AVR_LEONARDO
+DirectusSchubhebel.build.core=arduino:arduino
+DirectusSchubhebel.build.variant=arduino:leonardo
+DirectusSchubhebel.build.extra_flags={build.usb_flags}
