@@ -415,3 +415,93 @@ DirectusSchubhebel.build.board=AVR_LEONARDO
 DirectusSchubhebel.build.core=arduino:arduino
 DirectusSchubhebel.build.variant=arduino:leonardo
 DirectusSchubhebel.build.extra_flags={build.usb_flags}
+
+
+
+MortisLenkjoystick.name=Mortis Lenkjoystick
+
+MortisLenkjoystick.upload.tool=arduino:avrdude
+MortisLenkjoystick.upload.protocol=avr109
+MortisLenkjoystick.upload.maximum_size=28672
+MortisLenkjoystick.upload.maximum_data_size=2560
+MortisLenkjoystick.upload.speed=57600
+MortisLenkjoystick.upload.disable_flushing=true
+MortisLenkjoystick.upload.use_1200bps_touch=true
+MortisLenkjoystick.upload.wait_for_upload_port=true
+MortisLenkjoystick.bootloader.tool=arduino:avrdude
+MortisLenkjoystick.bootloader.low_fuses=0xff
+MortisLenkjoystick.bootloader.high_fuses=0xd8
+MortisLenkjoystick.bootloader.extended_fuses=0xcb
+MortisLenkjoystick.bootloader.file=caterina/Caterina-Leonardo.hex
+MortisLenkjoystick.bootloader.unlock_bits=0x3F
+MortisLenkjoystick.bootloader.lock_bits=0x2F
+MortisLenkjoystick.build.mcu=atmega32u4
+MortisLenkjoystick.build.f_cpu=16000000L
+MortisLenkjoystick.build.vid=0x2355
+MortisLenkjoystick.build.pid=0x807F
+MortisLenkjoystick.build.usb_product="Mortis Lenkjoystick"
+MortisLenkjoystick.build.usb_manufacturer="Hendrik Kleinwächter"
+MortisLenkjoystick.build.board=AVR_LEONARDO
+MortisLenkjoystick.build.core=arduino:arduino
+MortisLenkjoystick.build.variant=arduino:leonardo
+MortisLenkjoystick.build.extra_flags={build.usb_flags}
+
+
+
+MortisJoystickFahrhebel.name=Mortis Joystick Fahrhebel
+
+MortisJoystickFahrhebel.upload.tool=arduino:avrdude
+MortisJoystickFahrhebel.upload.protocol=avr109
+MortisJoystickFahrhebel.upload.maximum_size=28672
+MortisJoystickFahrhebel.upload.maximum_data_size=2560
+MortisJoystickFahrhebel.upload.speed=57600
+MortisJoystickFahrhebel.upload.disable_flushing=true
+MortisJoystickFahrhebel.upload.use_1200bps_touch=true
+MortisJoystickFahrhebel.upload.wait_for_upload_port=true
+MortisJoystickFahrhebel.bootloader.tool=arduino:avrdude
+MortisJoystickFahrhebel.bootloader.low_fuses=0xff
+MortisJoystickFahrhebel.bootloader.high_fuses=0xd8
+MortisJoystickFahrhebel.bootloader.extended_fuses=0xcb
+MortisJoystickFahrhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+MortisJoystickFahrhebel.bootloader.unlock_bits=0x3F
+MortisJoystickFahrhebel.bootloader.lock_bits=0x2F
+MortisJoystickFahrhebel.build.mcu=atmega32u4
+MortisJoystickFahrhebel.build.f_cpu=16000000L
+MortisJoystickFahrhebel.build.vid=0x2355
+MortisJoystickFahrhebel.build.pid=0x8080
+MortisJoystickFahrhebel.build.usb_product="Mortis Joystick Fahrhebel"
+MortisJoystickFahrhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+MortisJoystickFahrhebel.build.board=AVR_LEONARDO
+MortisJoystickFahrhebel.build.core=arduino:arduino
+MortisJoystickFahrhebel.build.variant=arduino:leonardo
+MortisJoystickFahrhebel.build.extra_flags={build.usb_flags}
+
+
+
+MortisSchubhebel.name=Mortis Schubhebel
+
+MortisSchubhebel.upload.tool=arduino:avrdude
+MortisSchubhebel.upload.protocol=avr109
+MortisSchubhebel.upload.maximum_size=28672
+MortisSchubhebel.upload.maximum_data_size=2560
+MortisSchubhebel.upload.speed=57600
+MortisSchubhebel.upload.disable_flushing=true
+MortisSchubhebel.upload.use_1200bps_touch=true
+MortisSchubhebel.upload.wait_for_upload_port=true
+MortisSchubhebel.bootloader.tool=arduino:avrdude
+MortisSchubhebel.bootloader.low_fuses=0xff
+MortisSchubhebel.bootloader.high_fuses=0xd8
+MortisSchubhebel.bootloader.extended_fuses=0xcb
+MortisSchubhebel.bootloader.file=caterina/Caterina-Leonardo.hex
+MortisSchubhebel.bootloader.unlock_bits=0x3F
+MortisSchubhebel.bootloader.lock_bits=0x2F
+MortisSchubhebel.build.mcu=atmega32u4
+MortisSchubhebel.build.f_cpu=16000000L
+MortisSchubhebel.build.vid=0x2355
+MortisSchubhebel.build.pid=0x8081
+MortisSchubhebel.build.usb_product="Mortis Schubhebel"
+MortisSchubhebel.build.usb_manufacturer="Hendrik Kleinwächter"
+MortisSchubhebel.build.board=AVR_LEONARDO
+MortisSchubhebel.build.core=arduino:arduino
+MortisSchubhebel.build.variant=arduino:leonardo
+MortisSchubhebel.build.extra_flags={build.usb_flags}
